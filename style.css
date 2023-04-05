@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 body{
-    background-color: #2b4563;;
+    background-color: #f2f4f6;;
 }
 
 .registration{
@@ -42,7 +42,7 @@ body{
     position: absolute;
     left: 50%;
     width: 35%;
-    background-color: rgba(4, 1, 62, 0.15); 
+    background-color: rgb(6, 6, 73); 
     border-radius: 0px 10px 10px 0px;
     color: #e3e3e3;
     align-items: center; 
