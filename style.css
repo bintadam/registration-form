@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    background-color: #2b4563;;
+}
+
+.registration{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    position: relative;
+    top: 12%;
+    height: 500px;
+    border: none;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20%;
+    width: 30%;
+    background-color: #c7510d;
+    color: white;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card-1 h1{
+    position: relative;
+    top: 35%;
+    font-weight: bold;
+    padding-left: 16px;
+    font-size: 52px;
+    font-family :'Lily Script One', cursive;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    width: 35%;
+    background-color: rgba(4, 1, 62, 0.15); 
+    border-radius: 0px 10px 10px 0px;
+    color: #e3e3e3;
+    align-items: center; 
+} 
+
+.card-2 h2{
+    margin: 20px;
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+.card-2 p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.card-2 form{
+    display: block;
+    align-items: center;
+}
+
+.card-2 form input{
+    display: block;
+    padding: 10px 70px 8px 4px;
+    margin: 8px 0px;
+    background-color: #dfdfe7;
+    border: #f7f7f7;
+}
+
+
+.checkbox{
+    padding: 6px;
+}
+
+
+input[type="checkbox"]{
+    display: inline-block;
+}
+
+.btn{
+    width: 50%;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color:#c7510d;
+    color: #ffffff;
+    cursor: pointer;
+    margin: auto;
+    border: #c7510d;
+}
+
+
